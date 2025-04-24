@@ -2,6 +2,8 @@
 
 Este projeto tem como objetivo desenvolver uma aplicação em React que permite buscar perfis do GitHub e exibir informações detalhadas do usuário conforme um layout previamente definido no Figma.
 
+[Acesse a aplicação aqui 👆](https://github-search-profile-sigma.vercel.app/)
+
 ## 📝 Objetivo
 
 O objetivo é criar uma aplicação que faça a busca de perfis no GitHub e exiba as seguintes informações do usuário:
@@ -35,8 +37,11 @@ O layout para a interface do usuário foi projetado no Figma. Você pode acessar
 4. **Estilização**
    - A aplicação segue o layout do Figma mencionado acima. Foi utilizado Tailwind CSS para estilizar a aplicação.
 
-4. **Efeitos Visuais e Loading**
+5. **Efeitos Visuais e Loading**
    - Para melhorar a experiência do usuário foi adicionado um indicador de carregamento enquanto a requisição está sendo processada.
+
+6. **Dark mode**
+   - Adição dos temas light e dark na interface da aplicação
 
 ## 🚀 Tecnologias Utilizadas
 
