@@ -40,7 +40,7 @@ const App: React.FC = () => {
       <main className={`min-h-screen flex flex-col items-center justify-start py-10 px-4 gap-10 ${
       isDark ? "bg-black" : "bg-gray-100"
       }`}>
-        <header className="text-center flex justify-between items-center gap-6">
+        <header className="text-center flex justify-between items-center gap-6 max-sm:flex-col">
           <div className="flex items-center gap-6">
             <img
               src={isDark ? GithubMark : GithubMarkLight}
@@ -48,7 +48,7 @@ const App: React.FC = () => {
               className="w-20"
             />
             <h1
-              className={`text-7xl flex items-center justify-center gap-2 ${
+              className={`text-7xl flex items-center justify-center gap-2 max-sm:text-6xl ${
                 isDark ? "text-white" : "text-black"
               }`}
             >
@@ -106,13 +106,13 @@ const App: React.FC = () => {
         )}
 
         {userData && !loading && (
-          <div className="bg-gray-200 rounded-3xl flex items-center justify-between gap-8 py-4 px-8">
+          <div className="bg-gray-200 rounded-3xl flex items-center justify-between gap-8 py-4 px-8 w-full max-w-[768px] max-sm:flex-col">
             <img
               src={userData.avatar_url}
               alt="Foto de Perfil"
               className="w-64 rounded-full shadow-md border-4 border-blue-600"
             />
-            <div className="max-w-2xl flex flex-col gap-4">
+            <div className="max-w-2xl flex flex-col gap-4 max-sm:items-center">
               <h2 className="text-2xl text-blue-600">
                 {userData.name ? userData.name : "Nome não disponível"}
               </h2>
