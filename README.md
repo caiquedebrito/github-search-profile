@@ -70,3 +70,9 @@ O layout para a interface do usuário foi projetado no Figma. Você pode acessar
 
 4. **Acessando a aplicação**
   No navegador acesse `http://localhost:5173/`
+
+## 📸 Preview
+
+![Image](https://github.com/user-attachments/assets/12888233-9bc0-467c-8c9a-926e92cdac06)
+
+![Image](https://github.com/user-attachments/assets/1af98b5c-402c-43d4-a223-3e24c14397aa)
