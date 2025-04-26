@@ -75,4 +75,8 @@ O layout para a interface do usuário foi projetado no Figma. Você pode acessar
 
 ![Image](https://github.com/user-attachments/assets/12888233-9bc0-467c-8c9a-926e92cdac06)
 
+![Image](https://github.com/user-attachments/assets/04fe6423-35fe-40af-947c-52803ef4d6cc)
+
+![Image](https://github.com/user-attachments/assets/c6249a70-47e6-4d9c-88a2-4d5d24b35e4b)
+
 ![Image](https://github.com/user-attachments/assets/1af98b5c-402c-43d4-a223-3e24c14397aa)
